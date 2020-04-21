@@ -4,11 +4,42 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 64.5%;
-    background-image: url('https://via.placeholder.com/150');
+    height: 75%;
+    background-image: url('https://via.placeholder.com/200');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -99;
+  }
+
+  .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.slider {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 100vw;
+  background-color: yellow;
+  height: 438px;
+}
+
+.carts {
+  position: relative;
+  top: 1100px;
+
+  &__title {
+    text-align: center;
+    margin: 80px auto;
   }
 }
