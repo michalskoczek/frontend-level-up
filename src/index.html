@@ -12,6 +12,28 @@
     <title>Zonex - Shop</title>
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+      <div class="background"></div>
+      <nav class="header_navbar">
+        <button class="header__menu-btn">
+          <img
+            src="./assets/canvas-menu.png"
+            srcset="
+              ./assets/canvas-menu@2x.png 2x,
+              ./assets/canvas-menu@3x.png 3x
+            "
+            class="canvas-menu"
+          />
+        </button>
+        <a class="header__company-name"></a>
+        <div class="header__buttons buttons">
+          <button class="buttons__user"></button>
+          <button class="buttons__shop-cart">
+            <span class="buttons__quantity-shop-cart"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="slogan"></div>
+    </header>
   </body>
 </html>

@@ -1,0 +1,21 @@
+.header {
+  &__navbar {
+    padding: 18px 20px 0;
+  }
+  &__menu-btn {
+    background-color: transparent;
+    border: transparent;
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 64.5%;
+    background-image: url('https://via.placeholder.com/150');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -99;
+  }
+}
