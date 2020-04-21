@@ -14,23 +14,58 @@
   <body>
     <header class="header">
       <div class="background"></div>
-      <nav class="header_navbar">
-        <button class="header__menu-btn">
-          <img
-            src="./assets/canvas-menu.png"
-            srcset="
-              ./assets/canvas-menu@2x.png 2x,
-              ./assets/canvas-menu@3x.png 3x
-            "
-            class="canvas-menu"
-          />
-        </button>
-        <a class="header__company-name"></a>
-        <div class="header__buttons buttons">
-          <button class="buttons__user"></button>
-          <button class="buttons__shop-cart">
-            <span class="buttons__quantity-shop-cart"></span>
+      <nav class="navbar navbar-expand-lg navbar-transparent">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><img
+                src="./assets/canvas-menu.png"
+                srcset="
+                  ./assets/canvas-menu@2x.png 2x,
+                  ./assets/canvas-menu@3x.png 3x
+                "
+                class="canvas-menu"
+            /></span>
           </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/logo-zonex.png"
+              srcset="
+                ./assets/logo-zonex@2x.png 2x,
+                ./assets/logo-zonex@3x.png 3x
+              "
+              class="logo-zonex"
+              width="117px"
+              height="22px"
+            />
+          </a>
         </div>
       </nav>
       <div class="slogan"></div>
