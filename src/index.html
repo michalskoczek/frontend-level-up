@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <section>
-    <h1>Hello World!</h1>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Zonex - Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="background">
+        <div class="slogan">
+          <img
+            src="./assets/vector-smart-object.png"
+            srcset="
+              ./assets/vector-smart-object@2x.png 2x,
+              ./assets/vector-smart-object@3x.png 3x
+            "
+            class="Vector-Smart-Object"
+          />
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-transparent">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><img
+                src="./assets/canvas-menu.png"
+                srcset="
+                  ./assets/canvas-menu@2x.png 2x,
+                  ./assets/canvas-menu@3x.png 3x
+                "
+                class="canvas-menu"
+            /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand col-6">
+            <img
+              src="./assets/logo-zonex.png"
+              srcset="
+                ./assets/logo-zonex@2x.png 2x,
+                ./assets/logo-zonex@3x.png 3x
+              "
+              class="logo-zonex"
+            />
+          </a>
+
+          <button type="button" class="btn col">
+            <img
+              src="./assets/kz-user.png"
+              srcset="./assets/kz-user@2x.png 2x, ./assets/kz-user@3x.png 3x"
+              class="kz-user"
+            />
+          </button>
+          <button type="button" class="btn col">
+            <img
+              src="./assets/kz-bag.png"
+              srcset="./assets/kz-bag@2x.png 2x, ./assets/kz-bag@3x.png 3x"
+              class="kz-bag"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="slider"></section>
+    <section class="carts">
+      <h2 class="carts__title">New Arrivals</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="https://via.placeholder.com/309x390" alt="" />
+            <p>New</p>
+            <p>Koszulka</p>
+            <p>$30.00</p>
+          </div>
+          <div class="col-md-2">
+            <img src="https://via.placeholder.com/309x390" alt="" />
+            <p>New</p>
+            <p>Koszulka</p>
+            <p>$30.00</p>
+          </div>
+          <div class="col-md-2">
+            <img src="https://via.placeholder.com/309x390" alt="" />
+            <p>New</p>
+            <p>Koszulka</p>
+            <p>$30.00</p>
+          </div>
+          <div class="col-md-2">
+            <img src="https://via.placeholder.com/309x390" alt="" />
+            <p>New</p>
+            <p>Koszulka</p>
+            <p>$30.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
