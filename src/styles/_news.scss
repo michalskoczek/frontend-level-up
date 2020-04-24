@@ -1,0 +1,17 @@
+.news {
+  &__first-news {
+    padding: 0 10px 0 0;
+  }
+
+  &__second-news {
+    padding: 0 10px 10px 0;
+  }
+
+  &__third-news {
+    padding: 0 0 10px 0;
+  }
+
+  &__fourth-news {
+    padding: 0;
+  }
+}

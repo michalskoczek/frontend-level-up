@@ -1,5 +1,10 @@
 .header {
   height: 75vh;
+  background-image: url('https://via.placeholder.com/300x300');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -99;
 
   &__brand {
     position: absolute;
@@ -34,13 +39,4 @@
       font-size: 10px;
     }
   }
-}
-
-.background-image .image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translate(-50%, -50%);
 }

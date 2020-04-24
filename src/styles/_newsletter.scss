@@ -1,0 +1,14 @@
+.newsletter {
+  margin: 70px auto;
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    font-size: 11px;
+    color: gray;
+    padding-bottom: 20px;
+  }
+}

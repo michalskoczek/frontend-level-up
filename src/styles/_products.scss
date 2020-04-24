@@ -1,0 +1,21 @@
+.products {
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  &__image,
+  &__description {
+    padding: 0 10px;
+  }
+
+  &__btn-all-products {
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    margin: 50px auto;
+    background: transparent;
+    border: 2px solid #000;
+  }
+}

@@ -13,9 +13,6 @@
   </head>
   <body class="wrapper">
     <header class="header container-fluid">
-      <div class="container background-image">
-        <img class="image" src="https://via.placeholder.com/300x300" alt="" />
-      </div>
       <nav class="header__navbar navbar navbar-expand-md">
         <button
           class="navbar-toggler"
@@ -65,19 +62,206 @@
         </div>
       </nav>
     </header>
-    <section class="slider wrapper__slider container">
-      <div class="row">
-        <div class="col-2"></div>
+    <section class="slider wrapper__slider container-fluid">
+      <div class="row slider__row">
+        <button class="col-2 align-self-center slider__arrow">
+          <img src="./assets/left-arrow.png" alt="" />
+        </button>
         <div class="col-8">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+          <div class="row images__row flex-nowrap">
+            <div class="col img">
+              <img src="https://via.placeholder.com/268x338" alt="" />
+              <span class="img__name">Sweter</span>
+              <span class="img__price">50,99-60,99$</span>
+            </div>
+            <div class="col img">
+              <img src="https://via.placeholder.com/268x338" alt="" />
+              <span class="img__name">Sweter</span>
+              <span class="img__price">50,99-60,99$</span>
+            </div>
+            <div class="col img">
+              <img src="https://via.placeholder.com/268x338" alt="" />
+              <span class="img__name">Sweter</span>
+              <span class="img__price">50,99-60,99$</span>
+            </div>
+            <div class="col img">
+              <img src="https://via.placeholder.com/268x338" alt="" />
+              <span class="img__name">Sweter</span>
+              <span class="img__price">50,99-60,99$</span>
+            </div>
+            <div class="col img">
+              <img src="https://via.placeholder.com/268x338" alt="" />
+              <span class="img__name">Sweter</span>
+              <span class="img__price">50,99-60,99$</span>
+            </div>
           </div>
         </div>
-        <div class="col-2"></div>
+        <button class="col-2 align-self-center slider__arrow">
+          <img src="./assets/right-arrow.png" alt="" />
+        </button>
       </div>
+    </section>
+    <section class="products">
+      <h3 class="products__title">New Arrivals</h3>
+      <div class="container">
+        <div class="row flex-nowrap flex-md-wrap">
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+        </div>
+        <div class="row flex-nowrap" style="padding: 20px 0;">
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-3 products__image">
+            <img
+              src="https://via.placeholder.com/309x338"
+              alt=""
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+          <div class="col d-flex flex-column products__description">
+            <span>New</span>
+            <span>ładne spodnie</span>
+            <span>30$</span>
+          </div>
+        </div>
+      </div>
+      <button class="products__btn-all-products">All products</button>
+    </section>
+    <section class="news">
+      <div class="container">
+        <div class="row">
+          <div class="col-5 news__first-news">
+            <img
+              class="w-100"
+              src="https://via.placeholder.com/547x630"
+              alt=""
+            />
+          </div>
+          <div class="col-7" style="padding: 0 0 0 10px;">
+            <div class="row">
+              <div class="col-6 news__second-news">
+                <img
+                  class="w-100"
+                  src="https://via.placeholder.com/380x310"
+                  alt=""
+                />
+              </div>
+              <div class="col-6 news__third-news">
+                <img
+                  class="w-100"
+                  src="https://via.placeholder.com/380x310"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col news__fourth-news">
+                <img
+                  class="w-100"
+                  src="https://via.placeholder.com/769x310"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter d-flex flex-column align-items-center">
+      <p class="newsletter__title">Our newsletter</p>
+      <p class="newsletter__subtitle">
+        Join our list and get 15% off your first purchase!
+      </p>
+      <form>
+        <label>
+          <input type="email" placeholder="Email address" />
+        </label>
+        <button type="submit">Subscribe</button>
+      </form>
     </section>
   </body>
 </html>

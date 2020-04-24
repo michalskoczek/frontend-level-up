@@ -1,0 +1,35 @@
+.slider {
+  background-color: #263a49;
+
+  &__arrow {
+    background: transparent;
+    border: transparent;
+  }
+}
+
+.images__row {
+  overflow: hidden;
+  margin: 40px 0;
+  .img {
+    position: relative;
+    margin: 0 15px;
+    padding: 0;
+
+    &__name,
+    &__price {
+      position: absolute;
+      font-size: 12px;
+    }
+
+    &__name {
+      bottom: 10%;
+      left: 6%;
+    }
+
+    &__price {
+      padding: 5px 0 0 0;
+      bottom: 4%;
+      left: 5%;
+    }
+  }
+}
