@@ -1,45 +1,46 @@
 .header {
-  .background {
+  height: 75vh;
+
+  &__brand {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 75%;
-    background-image: url('https://via.placeholder.com/200');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -99;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.buttons {
+  &__user,
+  &__bag {
+    background: transparent;
+    border: none;
+    padding-left: 10px;
   }
 
-  .slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  .counter-wrapper {
+    position: relative;
+    width: 16px;
+    height: 16px;
     margin: 0;
-    transform: translate(-50%, -50%);
+    background-color: #000;
+    border-radius: 50%;
 
-    @media (min-width: 768px) {
-      display: none;
+    &__counter {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 10px;
     }
   }
 }
 
-.slider {
+.background-image .image {
   position: absolute;
-  top: 75%;
-  left: 0;
-  width: 100vw;
-  background-color: yellow;
-  height: 438px;
-}
-
-.carts {
-  position: relative;
-  top: 1100px;
-
-  &__title {
-    text-align: center;
-    margin: 80px auto;
-  }
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
 }

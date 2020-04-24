@@ -11,118 +11,72 @@
     />
     <title>Zonex - Shop</title>
   </head>
-  <body>
-    <header class="header">
-      <div class="background">
-        <div class="slogan">
-          <img
-            src="./assets/vector-smart-object.png"
-            srcset="
-              ./assets/vector-smart-object@2x.png 2x,
-              ./assets/vector-smart-object@3x.png 3x
-            "
-            class="Vector-Smart-Object"
-          />
-        </div>
+  <body class="wrapper">
+    <header class="header container-fluid">
+      <div class="container background-image">
+        <img class="image" src="https://via.placeholder.com/300x300" alt="" />
       </div>
-      <nav class="navbar navbar-expand-lg navbar-transparent">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"
-              ><img
-                src="./assets/canvas-menu.png"
-                srcset="
-                  ./assets/canvas-menu@2x.png 2x,
-                  ./assets/canvas-menu@3x.png 3x
-                "
-                class="canvas-menu"
-            /></span>
+      <nav class="header__navbar navbar navbar-expand-md">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"
+            ><img src="./assets/canvas-menu.png" alt="menu"
+          /></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarMenu">
+          <ul class="header__items-list navbar-nav">
+            <li class="header__item nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="header__item nav-item">
+              <a href="#" class="nav-link">Shop</a>
+            </li>
+            <li class="header__item nav-item">
+              <a href="#" class="nav-link">Elements</a>
+            </li>
+            <li class="header__item nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="header__item nav-item">
+              <a href="#" class="nav-link">Page</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="header__brand navbar-brand"
+          ><img src="./assets/logo-zonex.png" alt="logo-zonex"
+        /></a>
+        <div class="buttons ml-auto row">
+          <button class="buttons__user align-self-center">
+            <img src="./assets/kz-user.png" alt="kz-user" />
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Elements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Page</a>
-              </li>
-            </ul>
+          <div class="d-flex flex-nowrap align-items-center">
+            <button class="buttons__bag">
+              <img src="./assets/kz-bag.png" alt="kz-bag" />
+            </button>
+            <div
+              class="buttons__counter-wrapper counter-wrapper align-self-center d-sm-none"
+            >
+              <span class="counter-wrapper__counter">3</span>
+            </div>
           </div>
-          <a class="navbar-brand col-6">
-            <img
-              src="./assets/logo-zonex.png"
-              srcset="
-                ./assets/logo-zonex@2x.png 2x,
-                ./assets/logo-zonex@3x.png 3x
-              "
-              class="logo-zonex"
-            />
-          </a>
-
-          <button type="button" class="btn col">
-            <img
-              src="./assets/kz-user.png"
-              srcset="./assets/kz-user@2x.png 2x, ./assets/kz-user@3x.png 3x"
-              class="kz-user"
-            />
-          </button>
-          <button type="button" class="btn col">
-            <img
-              src="./assets/kz-bag.png"
-              srcset="./assets/kz-bag@2x.png 2x, ./assets/kz-bag@3x.png 3x"
-              class="kz-bag"
-            />
-          </button>
         </div>
       </nav>
     </header>
-    <section class="slider"></section>
-    <section class="carts">
-      <h2 class="carts__title">New Arrivals</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <img src="https://via.placeholder.com/309x390" alt="" />
-            <p>New</p>
-            <p>Koszulka</p>
-            <p>$30.00</p>
-          </div>
-          <div class="col-md-2">
-            <img src="https://via.placeholder.com/309x390" alt="" />
-            <p>New</p>
-            <p>Koszulka</p>
-            <p>$30.00</p>
-          </div>
-          <div class="col-md-2">
-            <img src="https://via.placeholder.com/309x390" alt="" />
-            <p>New</p>
-            <p>Koszulka</p>
-            <p>$30.00</p>
-          </div>
-          <div class="col-md-2">
-            <img src="https://via.placeholder.com/309x390" alt="" />
-            <p>New</p>
-            <p>Koszulka</p>
-            <p>$30.00</p>
+    <section class="slider wrapper__slider container">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
           </div>
         </div>
+        <div class="col-2"></div>
       </div>
     </section>
   </body>
