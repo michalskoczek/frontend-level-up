@@ -1,19 +1,61 @@
 .slider {
+  padding: 0;
   background-color: #263a49;
 
+  &__row {
+    margin: 0;
+  }
+
   &__arrow {
+    display: none;
+    padding: 0;
     background: transparent;
     border: transparent;
+
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+
+  &__smooth-bar {
+    height: 4px;
+    width: 100px;
+    margin: 0 0 10px 15px;
+    border-radius: 2px;
+    background-color: #fff;
+    opacity: 0.2;
+
+    @media (min-width: 1200px) {
+      display: none;
+    }
   }
 }
 
+.images__wrapper {
+  padding: 0;
+}
+
 .images__row {
+  display: flex;
+  flex-wrap: nowrap;
   overflow: hidden;
   margin: 40px 0;
+
   .img {
     position: relative;
+    width: 241px;
+    height: 304px;
     margin: 0 15px;
     padding: 0;
+
+    @media (min-width: 1200px) {
+      width: 268px;
+      height: 338px;
+    }
+
+    & img {
+      max-height: 100%;
+    }
 
     &__name,
     &__price {
