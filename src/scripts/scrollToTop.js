@@ -2,7 +2,7 @@ export default function () {
   const arrowBtn = document.querySelector('.arrow-to-top');
 
   document.addEventListener('scroll', () => {
-    if (window.scrollY >= screen.availHeight) {
+    if (window.scrollY >= screen.availHeight / 2) {
       arrowBtn.style.display = 'block';
     } else {
       arrowBtn.style.display = 'none';
