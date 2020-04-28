@@ -10,39 +10,12 @@
     padding: 60px 0;
     margin: 0;
   }
-  /* 
-  &__image {
-    height: 208px;
-    max-width: 165px;
-    padding: 0;
-    margin: 0 10px;
-    background-color: #ddd;
-    margin-bottom: 80px;
-
-    @media (min-width: 1200px) {
-      height: 390px;
-      max-width: 309px;
-    }
-
-    & img {
-      position: relative;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      max-width: 100%;
-
-      @media (min-width: 1200px) {
-        max-height: 100%;
-        max-width: none;
-      }
-    } 
-  }*/
 
   &__btn-all-products {
     display: flex;
     justify-content: center;
     padding: 15px 30px;
-    margin: 50px auto;
+    margin: 15px auto 30px;
     background: transparent;
     border: 2px solid #000;
   }
