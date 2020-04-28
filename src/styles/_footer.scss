@@ -1,0 +1,57 @@
+.footer {
+  margin: 40px 0 19px;
+
+  &__icon {
+    &--marign {
+      margin: 0 30px 0 0;
+    }
+  }
+  &__icons-list {
+    margin: 0 0 34px 0;
+  }
+  &__links-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 34px 0;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+  &__link {
+    font-size: 12px;
+    font-weight: bold;
+
+    @media (min-width: 992px) {
+      margin: 0 6px 0 0;
+    }
+  }
+  &__options {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px 0;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
+  &__copyright {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 21px 0 23px 0;
+  }
+
+  &__select {
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  &__select-label {
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}

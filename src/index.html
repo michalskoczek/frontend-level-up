@@ -11,9 +11,9 @@
     />
     <title>Zonex - Shop</title>
   </head>
-  <body class="wrapper">
+  <body>
     <header class="header container-fluid">
-      <nav class="header__navbar navbar navbar-expand-lg">
+      <nav class="header__navbar navbar navbar-expand-md">
         <button
           class="navbar-toggler header__hamburger"
           data-toggle="collapse"
@@ -23,6 +23,7 @@
             ><img src="./assets/canvas-menu.png" alt="menu"
           /></span>
         </button>
+
         <div class="collapse navbar-collapse flex-grow-0" id="navbarMenu">
           <ul class="header__items-list navbar-nav">
             <li class="header__item nav-item">
@@ -42,9 +43,11 @@
             </li>
           </ul>
         </div>
+
         <a href="#" class="header__brand navbar-brand"
           ><img src="./assets/logo-zonex.png" alt="logo-zonex"
         /></a>
+
         <div class="buttons ml-auto row">
           <button class="buttons__user align-self-center">
             <img src="./assets/kz-user.png" alt="kz-user" />
@@ -67,7 +70,7 @@
     </header>
     <section class="slider wrapper__slider container-fluid">
       <div class="row slider__row">
-        <button class="col-2 align-self-center slider__arrow">
+        <button class="slider__arrow col-xl-2 align-self-center">
           <img src="./assets/left-arrow.png" alt="" />
         </button>
         <div class="images__wrapper col-xl-8 col-12">
@@ -99,217 +102,248 @@
             </div>
           </div>
         </div>
-        <button class="col-2 align-self-center slider__arrow">
+        <button class="slider__arrow col-xl-2 align-self-center">
           <img src="./assets/right-arrow.png" alt="" />
         </button>
         <div class="slider__smooth-bar"></div>
       </div>
     </section>
-    <!--  <section class="products">
+
+    <section class="products">
       <h3 class="products__title">New Arrivals</h3>
       <div class="container">
-        <div class="row flex-nowrap flex-md-wrap">
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-        </div>
         <div class="row">
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="row flex-nowrap" style="padding: 20px 0;">
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-          <div class="col-3 products__image">
-            <img
-              src="https://via.placeholder.com/309x338"
-              alt=""
-              class="w-100"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
-          </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
-          </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
-          </div>
-          <div class="col d-flex flex-column products__description">
-            <span>New</span>
-            <span>ładne spodnie</span>
-            <span>30$</span>
+          <div class="col-6 col-lg-4 col-xl-3">
+            <div class="product-cart products__product-cart">
+              <div class="product-cart__img"></div>
+              <p class="product-cart__special-offer">
+                <span>
+                  <img src="./assets/kz-bolt-line.png" alt="" />
+                </span>
+                new
+              </p>
+              <p class="product-cart__name">Eye Mesh Boat Shoes</p>
+              <p class="product-cart__price">$220.00</p>
+              <button class="product-cart__btn">
+                <span>Select option</span>
+                <img src="./assets/kz-heart.png" alt="" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <button class="products__btn-all-products">All products</button>
-    </section> -->
-    <!--  <section class="news">
+      <!-- <button class="products__btn-all-products">All products</button> -->
+    </section>
+
+    <section>
       <div class="container">
         <div class="row">
-          <div class="col-5 news__first-news">
-            <img
-              class="w-100"
-              src="https://via.placeholder.com/547x630"
-              alt=""
+          <div class="col-xl-6">
+            <div class="col-12 col-xl-12 pl-0 pr-0">
+              <div class="news news--big">
+                <p class="news__title">
+                  Sleeve denim <br />
+                  mini dress
+                </p>
+                <a href="#" class="news__link">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="row">
+              <div class="col-12 col-lg-6 col-xl-6 pr-lg-0 pl-xl-0">
+                <div class="news">
+                  <p class="news__title">
+                    Back to school!
+                  </p>
+                  <a href="#" class="news__link">shop now</a>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 col-xl 6">
+                <div class="news">
+                  <p class="news__link">
+                    Jewelery for night
+                  </p>
+                  <a href="#" class="news__link">shop now</a>
+                </div>
+              </div>
+              <div class="col-12 col-xl-12 pl-xl-0">
+                <div class="news news--small">
+                  <p class="news__link">
+                    Sunglasses for you
+                  </p>
+                  <a href="#" class="news__link">shop now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="newsletter">
+          <p class="newsletter__title">Our newsletter</p>
+          <p class="newsletter__subtitle text-center">
+            Join our list and get 15% off your first purchase!
+          </p>
+          <form class="newsletter__form">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="newsletter__input"
             />
-          </div>
-          <div class="col-7" style="padding: 0 0 0 10px;">
-            <div class="row">
-              <div class="col-6 news__second-news">
-                <img
-                  class="w-100"
-                  src="https://via.placeholder.com/380x310"
-                  alt=""
-                />
-              </div>
-              <div class="col-6 news__third-news">
-                <img
-                  class="w-100"
-                  src="https://via.placeholder.com/380x310"
-                  alt=""
-                />
-              </div>
+            <button type="submit" class="newsletter__button">Subscribe</button>
+          </form>
+          <p class="newsletter__subtitle newsletter__subtitle--spam">
+            *Don't worry we don't spam
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="d-lg-flex justify-content-lg-between">
+            <div class="footer__icons-list">
+              <img
+                src="./assets/kz-twitter.png"
+                alt=""
+                class="footer__icon--marign"
+              />
+              <img
+                src="./assets/kz-facebook.png"
+                alt=""
+                class="footer__icon--marign"
+              />
+              <img
+                src="./assets//kz-instagram.png"
+                alt=""
+                class="footer__icon--marign"
+              />
+              <img src="./assets/kz-pinterest.png" alt="" />
             </div>
-            <div class="row">
-              <div class="col news__fourth-news">
-                <img
-                  class="w-100"
-                  src="https://via.placeholder.com/769x310"
-                  alt=""
-                />
-              </div>
+
+            <div class="footer__links-list">
+              <a href="#" class="footer__link">Returns Policy </a>
+              <a href="#" class="footer__link">Track Your Order </a>
+              <a href="#" class="footer__link">Shipping & Delivery </a>
             </div>
+
+            <div class="footer__options">
+              <label for="currency" class="footer__select-label"
+                >currency</label
+              >
+              <select id="currency" class="footer__select">
+                <option value="USD">USD</option>
+                <option value="EURO">EURO</option>
+                <option value="PLN">PLN</option>
+              </select>
+              <label for="language" class="footer__select-label"
+                >Language</label
+              >
+              <select id="language" class="footer__select">
+                <option value="ENGLISH">english</option>
+                <option value="POLISH">polish</option>
+                <option value="GERMAN">german</option>
+              </select>
+            </div>
+          </div>
+          <div class="divider d-lg-none"></div>
+          <div
+            class="d-lg-flex justify-content-lg-between align-items-lg-center"
+          >
+            <p class="footer__copyright">©2019 Zonex All rights reserved</p>
+            <img src="./assets/payment.png" alt="" />
           </div>
         </div>
       </div>
-    </section> -->
-    <!--   <section class="newsletter d-flex flex-column align-items-center">
-      <p class="newsletter__title">Our newsletter</p>
-      <p class="newsletter__subtitle">
-        Join our list and get 15% off your first purchase!
-      </p>
-      <form>
-        <label>
-          <input type="email" placeholder="Email address" />
-        </label>
-        <button type="submit">Subscribe</button>
-      </form>
-    </section> -->
-    <!--  <footer class="container">
-      <div class="row">
-        <div class="col-3">
-          <a href="#"><img src="./assets/kz-twitter.png" alt="twitter" /></a>
-          <a href="#"><img src="./assets/kz-facebook.png" alt="facebook" /></a>
-          <a href="#"
-            ><img src="./assets/kz-instagram.png" alt="instagram"
-          /></a>
-          <a href="#"
-            ><img src="./assets/kz-pinterest.png" alt="pinterest"
-          /></a>
-        </div>
-        <div class="col-4">
-          <a href="#">Returns Policy</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Privacy Policy</a>
-        </div>
-        <div class="col-2">
-          <label for="currency">Currency</label>
-          <select name="currency" id="currency">
-            <option value="usd">usd</option>
-            <option value="eur">eur</option>
-            <option value="pln">pln</option>
-          </select>
-        </div>
-        <div class="col-3">
-          <label for="language">Language</label>
-          <select name="languages" id="language">
-            <option value="english">english</option>
-            <option value="germany">germany</option>
-            <option value="polish">polish</option>
-          </select>
-        </div>
-      </div>
-      <div class="row flex-wrap">
-        <div class="col-9">
-          <p>&copy;2019 Zonex All rights reserved</p>
-        </div>
-        <div class="col-3">
-          <img src="./assets/payment.png" alt="payment" />
-        </div>
-      </div>
-    </footer> -->
+    </footer>
     <!-- <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -1,5 +1,6 @@
 .slider {
   padding: 0;
+  margin: 0 auto;
   background-color: #263a49;
 
   &__row {
@@ -33,6 +34,7 @@
 
 .images__wrapper {
   padding: 0;
+  //max-width: 1326px;
 }
 
 .images__row {

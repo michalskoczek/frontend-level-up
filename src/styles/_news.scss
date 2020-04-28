@@ -1,17 +1,32 @@
 .news {
-  &__first-news {
-    padding: 0 10px 0 0;
+  height: 282px;
+  background-color: #ddd;
+  padding: 30px;
+  margin: 0 0 15px 0;
+
+  @media (min-width: 1200px) {
+    height: 310px;
   }
 
-  &__second-news {
-    padding: 0 10px 10px 0;
+  &--big {
+    height: 398px;
+
+    @media (min-width: 1200px) {
+      height: 630px;
+    }
   }
 
-  &__third-news {
-    padding: 0 0 10px 0;
+  &--small {
+    height: 245px;
+
+    @media (min-width: 1200px) {
+      height: 310px;
+    }
   }
 
-  &__fourth-news {
-    padding: 0;
+  &__link {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
   }
 }
