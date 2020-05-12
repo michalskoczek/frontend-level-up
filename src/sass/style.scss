@@ -1,3 +1,8 @@
+@import 'base/_reset';
+
+@import 'helpers/_variables';
+@import 'helpers/_mixins';
+
 @import '_header';
 @import '_slider';
 @import '_arrow.scss';
