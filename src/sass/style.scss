@@ -3,6 +3,8 @@
 @import 'helpers/_variables';
 @import 'helpers/_mixins';
 
+@import './error';
+@import '_spinner';
 @import '_header';
 @import '_slider';
 @import '_arrow.scss';
