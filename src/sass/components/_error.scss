@@ -1,0 +1,18 @@
+.error {
+  display: none;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 2px black;
+  background-color: #fff;
+  z-index: 99;
+
+  &__content {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+  }
+}
