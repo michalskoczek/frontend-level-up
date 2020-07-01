@@ -4,12 +4,12 @@ const url =
 const getData = () => {
   return new Promise((resolve, reject) => {
     fetch(url, {
-      method: 'GET',
-      headers: {
-        'x-rapidapi-host': 'asos2.p.rapidapi.com',
-        'x-rapidapi-key': '76343e9babmsh83316836b7d44fap1ce83ejsn9106d24b61a1',
-      },
-    })
+        method: 'GET',
+        headers: {
+          'x-rapidapi-host': 'asos2.p.rapidapi.com',
+          'x-rapidapi-key': '76343e9babmsh83316836b7d44fap1ce83ejsn9106d24b61a1',
+        },
+      })
       .then((response) => response.json())
       .then((data) => {
         const products = [];
