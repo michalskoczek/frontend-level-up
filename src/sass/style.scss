@@ -3,7 +3,8 @@
 @import 'helpers/_variables';
 @import 'helpers/_mixins';
 
-@import './error';
+@import 'components/_error';
+
 @import '_spinner';
 @import '_header';
 @import '_slider';
