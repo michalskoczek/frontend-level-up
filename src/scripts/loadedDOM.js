@@ -20,7 +20,7 @@ export default function () {
 
   getData()
     .then((resp) => {
-      showSlider(resp.slice(5, 10));
+      showSlider(resp.slice(5, 16));
       addImage(resp.slice(16, 24));
       showNewsImg(resp.slice(27, 31));
     })
