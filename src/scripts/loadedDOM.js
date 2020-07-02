@@ -1,4 +1,3 @@
-import allProducts from './allProducts';
 import getCurrentYear from './currentYear';
 import scrollToTop from './scrollToTop';
 import getData from './getData';
@@ -8,6 +7,7 @@ import showLoading from './showSpinner';
 import hideLoading from './hideSpinner';
 import showNewsImg from './showNewsImg';
 import showSlider from './showSlider';
+import getAllProducts from './allProducts';
 
 const spinnerElement = document.querySelector('.spinner');
 const productsContainer = document.querySelector('.products');
@@ -21,7 +21,6 @@ export default function () {
   getData()
     .then((resp) => {
       showSlider(resp.slice(5, 10));
-      allProducts(resp.slice(0, 8));
       addImage(resp.slice(16, 24));
       showNewsImg(resp.slice(27, 31));
     })
@@ -34,4 +33,6 @@ export default function () {
 
   getCurrentYear();
   scrollToTop();
+
+  getAllProducts();
 }
