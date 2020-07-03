@@ -1,0 +1,27 @@
+.slider {
+  position: relative;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: $carousel-background;
+}
+
+.swiper-container {
+  width: 80vw;
+  height: 400px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+}
+
+.swiper-button-prev {
+  left: 3%;
+}
+
+.swiper-button-next {
+  right: 3%;
+}
