@@ -6,8 +6,8 @@ import addImage from './showProducts';
 import showLoading from './showSpinner';
 import hideLoading from './hideSpinner';
 import showNewsImg from './showNewsImg';
-import showSlider from './showSlider';
 import getAllProducts from './allProducts';
+import slider from './swiper';
 
 const spinnerElement = document.querySelector('.spinner');
 const productsContainer = document.querySelector('.products');
@@ -16,11 +16,12 @@ const specialOfferContainer = document.querySelector(
 );
 
 export default function () {
+
   showLoading(spinnerElement, productsContainer, specialOfferContainer);
 
   getData()
     .then((resp) => {
-      showSlider(resp.slice(5, 16));
+      slider(resp.slice(5, 15));
       addImage(resp.slice(16, 24));
       showNewsImg(resp.slice(27, 31));
     })
