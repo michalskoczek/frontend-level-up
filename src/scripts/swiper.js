@@ -1,5 +1,4 @@
 import Swiper from 'swiper';
-//import 'swiper/swiper-bundle.css';
 import leftArrowBtn from '../assets/left-arrow.png';
 import rightArrowBtn from '../assets/right-arrow.png';
 
