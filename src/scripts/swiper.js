@@ -40,9 +40,9 @@ export default function (productsArray) {
 
 
   const swiper = new Swiper('.swiper-container', {
-    // direction: 'vertical',
-    slidesPerView: 3,
-    spaceBetween: 30,
+    direction: 'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 20,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
